@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/SpringToken.sol": "SpringToken"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/SpringToken.sol": {
+			"keccak256": "0x7f5288dc54f5906021b17ad28b22bf1874cb3b778d157378ab4a084a5e3914a3",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://112b11d2d848c4db8e614864e141ae22d97434ac3e67c7bae21142d355e8c214",
+				"dweb:/ipfs/QmRnisUdWJ49nStyj6nD5z5hbXdTTH2GBmbYAHJhiDprVx"
+			]
+		}
+	},
+	"version": 1
+}

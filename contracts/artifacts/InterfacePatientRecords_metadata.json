@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/InterfacePatientRecords.sol": "InterfacePatientRecords"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/InterfacePatientRecords.sol": {
+			"keccak256": "0x6c501c4dfbf81a4ceda33d85c08a4d4289f42cf7b65cb3ace9c9f2daa6e681ff",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://e85751b807386e86979be3e9064d611477684e7dcf25efec0e0cc78087f50501",
+				"dweb:/ipfs/Qma9EZZHjxDhX6HyN2wiRKrCdJrHrAyFSgUvoBgLMcfxmU"
+			]
+		}
+	},
+	"version": 1
+}

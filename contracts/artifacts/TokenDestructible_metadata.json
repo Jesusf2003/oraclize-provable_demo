@@ -1,0 +1,51 @@
+{
+	"compiler": {
+		"version": "0.8.7+commit.e28d00a7"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "payable",
+				"type": "constructor"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/TokenDestructible.sol": "TokenDestructible"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/TokenDestructible.sol": {
+			"keccak256": "0xc18374b09875aef0fb124f22d829b64c2a60fd34f994b3f41058b7f2561590cf",
+			"license": "GPL-3.0",
+			"urls": [
+				"bzz-raw://553514455d2f10950afbe54785f8ebace96e47c1f02f41dd9fcedcffda4232e5",
+				"dweb:/ipfs/QmXkrfa2qTUaXmwX21NNryMeUAwBhqucFukp5KmXdxaxqj"
+			]
+		}
+	},
+	"version": 1
+}

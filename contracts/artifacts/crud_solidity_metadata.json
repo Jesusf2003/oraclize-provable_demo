@@ -1,0 +1,45 @@
+{
+	"compiler": {
+		"version": "0.8.4+commit.c7e474f2"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/crud_solidity.sol": "crud_solidity"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/crud_solidity.sol": {
+			"keccak256": "0x6f0b43944912b1f52a02a352476bb59a972d5ef6488d55fdf0468813574382bf",
+			"license": "Unlicense",
+			"urls": [
+				"bzz-raw://5250d3b17cdda444b9d8e576c0fd81662a38c7bf917749c552b9dea651ee71b8",
+				"dweb:/ipfs/QmfGPR5AyCHvxRyjLjQm12awh1whnduDRMZyNLnrNQKaNk"
+			]
+		}
+	},
+	"version": 1
+}

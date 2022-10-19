@@ -1,0 +1,182 @@
+{
+	"compiler": {
+		"version": "0.5.17+commit.d19bba13"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"payable": true,
+				"stateMutability": "payable",
+				"type": "constructor"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "description",
+						"type": "string"
+					}
+				],
+				"name": "LogNewProvableQuery",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "result",
+						"type": "string"
+					}
+				],
+				"name": "LogNewProvableResult",
+				"type": "event"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "GET_BITCOIN_PRICE_QUERY",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"internalType": "bytes32",
+						"name": "_myid",
+						"type": "bytes32"
+					},
+					{
+						"internalType": "string",
+						"name": "_result",
+						"type": "string"
+					}
+				],
+				"name": "__callback",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"internalType": "bytes32",
+						"name": "_myid",
+						"type": "bytes32"
+					},
+					{
+						"internalType": "string",
+						"name": "_result",
+						"type": "string"
+					},
+					{
+						"internalType": "bytes",
+						"name": "_proof",
+						"type": "bytes"
+					}
+				],
+				"name": "__callback",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"internalType": "bytes32",
+						"name": "",
+						"type": "bytes32"
+					}
+				],
+				"name": "pendingQueries",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "result",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [],
+				"name": "retrieveBitcoinPrice",
+				"outputs": [],
+				"payable": true,
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/BitcoinPrice.sol": "BitcoinPrice"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/BitcoinPrice.sol": {
+			"keccak256": "0x00ef48ad322bafc87d4d8ee29a4a7658c35c0ac3cd7cb7baacce0a8f3aabaa90",
+			"urls": [
+				"bzz-raw://7a35398fb33a0e985adfa73d7474fe7904649edf47b923f91a2695a690d9a3cf",
+				"dweb:/ipfs/QmS7amiA6t1ddUBGmykmoTxWntnmJTxbyfmMA6e3G4WgkB"
+			]
+		},
+		"github.com/provable-things/ethereum-api/contracts/solc-v0.5.x/provableAPI.sol": {
+			"keccak256": "0x519f7a58cd261994018eabe2006dd1e3a82652d2103129b19fb2286222355e70",
+			"urls": [
+				"bzz-raw://faaa6c84cd4a44f6e03ecc27eb7c355afb44b2e2478c82c02db215ae59c53247",
+				"dweb:/ipfs/QmZwBb9iKp8NgBJYk2AenCNvGTnd6HLD5MG5oC6mYukhbW"
+			]
+		}
+	},
+	"version": 1
+}

@@ -1,0 +1,122 @@
+{
+	"compiler": {
+		"version": "0.8.17+commit.8df45f5f"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "description",
+						"type": "string"
+					}
+				],
+				"name": "LogNewProvableQuery",
+				"type": "event"
+			},
+			{
+				"anonymous": false,
+				"inputs": [
+					{
+						"indexed": false,
+						"internalType": "string",
+						"name": "temperature",
+						"type": "string"
+					}
+				],
+				"name": "LogNewTemperatureMeasure",
+				"type": "event"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "bytes32",
+						"name": "_myid",
+						"type": "bytes32"
+					},
+					{
+						"internalType": "string",
+						"name": "_result",
+						"type": "string"
+					}
+				],
+				"name": "__callback",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "temperature",
+				"outputs": [
+					{
+						"internalType": "string",
+						"name": "",
+						"type": "string"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "update",
+				"outputs": [],
+				"stateMutability": "payable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"contracts/WolframAlpha.sol": "WolframAlpha"
+		},
+		"evmVersion": "london",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"contracts/WolframAlpha.sol": {
+			"keccak256": "0xd21c96101425f61ef2ff3039026ac08f2343db63c39ed3ed22796b840c1959b7",
+			"urls": [
+				"bzz-raw://af594463c8687ca146f5a1aafbf017ca5a6060210a42f5e79e802b4ee89e6691",
+				"dweb:/ipfs/Qmbjn2ngPEeyXZ3TN1footWQms9jTya8aaDm2rBPJmbvAJ"
+			]
+		},
+		"github.com/provable-things/ethereum-api/provableAPI.sol": {
+			"keccak256": "0xff6b5e1e0e4eeca558a1ac9220ce17c283f696389929cdae8aacbf2d101300dd",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://54996d70df2ca0b514c331ed076657342c0943f973196a8467653c8410ab2661",
+				"dweb:/ipfs/QmUutS1h1LXuZQnbYgHsxbgZMtqvJeBA4KVU7746xqdQ6P"
+			]
+		}
+	},
+	"version": 1
+}
